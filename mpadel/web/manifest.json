@@ -1,6 +1,6 @@
 {
-    "name": "mpadel",
-    "short_name": "mpadel",
+    "name": "Klasspadel",
+    "short_name": "Klasspadel",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

@@ -1,4 +1,4 @@
-package com.example.mpadel
+package com.example.Klasspadel
 
 import io.flutter.embedding.android.FlutterActivity
 

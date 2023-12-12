@@ -5,18 +5,18 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "mpadel",
+            "name": "Klasspadel",
             "request": "launch",
             "type": "dart"
         },
         {
-            "name": "mpadel (profile mode)",
+            "name": "Klasspadel (profile mode)",
             "request": "launch",
             "type": "dart",
             "flutterMode": "profile"
         },
         {
-            "name": "mpadel (release mode)",
+            "name": "Klasspadel (release mode)",
             "request": "launch",
             "type": "dart",
             "flutterMode": "release"

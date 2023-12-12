@@ -12,7 +12,7 @@ class VideoImageCapture extends StatefulWidget {
   const VideoImageCapture(
       {super.key, required this.videoUrl, required this.captureSecond});
   @override
-  _VideoImageCaptureState createState() => _VideoImageCaptureState();
+  State<VideoImageCapture> createState() => _VideoImageCaptureState();
 }
 
 class _VideoImageCaptureState extends State<VideoImageCapture> {
@@ -25,9 +25,11 @@ class _VideoImageCaptureState extends State<VideoImageCapture> {
   void initState() {
     super.initState();
     _videoController = VideoPlayerController.network(widget.videoUrl)
-      ..initialize().then((_) {
-        setState(() {});
-      });
+      ..initialize().then(
+        (_) {
+          setState(() {});
+        },
+      );
   }
 
   @override
@@ -70,17 +72,13 @@ class _VideoImageCaptureState extends State<VideoImageCapture> {
               children: [
                 _isPlaying
                     ? IconButton(
-                        icon: Icon(Icons.pause),
+                        icon: const Icon(Icons.pause),
                         onPressed: _pauseVideo,
                       )
                     : IconButton(
-                        icon: Icon(Icons.play_arrow),
+                        icon: const Icon(Icons.play_arrow),
                         onPressed: _playVideo,
                       ),
-                // IconButton(
-                //   icon: Icon(Icons.camera),
-                //   onPressed: _captureImage,
-                // ),
               ],
             ),
           ],
@@ -107,15 +105,15 @@ class _VideoImageCaptureState extends State<VideoImageCapture> {
               children: [
                 _isPlaying
                     ? IconButton(
-                        icon: Icon(Icons.pause),
+                        icon: const Icon(Icons.pause),
                         onPressed: _pauseVideo,
                       )
                     : IconButton(
-                        icon: Icon(Icons.play_arrow),
+                        icon: const Icon(Icons.play_arrow),
                         onPressed: _playVideo,
                       ),
                 IconButton(
-                  icon: Icon(Icons.camera),
+                  icon: const Icon(Icons.camera),
                   onPressed: _captureImage,
                 ),
               ],

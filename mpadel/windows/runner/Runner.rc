@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "mpadel" "\0"
+            VALUE "FileDescription", "Klasspadel" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "mpadel" "\0"
+            VALUE "InternalName", "Klasspadel" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2023 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "mpadel.exe" "\0"
-            VALUE "ProductName", "mpadel" "\0"
+            VALUE "OriginalFilename", "Klasspadel.exe" "\0"
+            VALUE "ProductName", "Klasspadel" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

@@ -1,0 +1,55 @@
+import 'package:get/get.dart';
+
+class Languages extends Translations {
+  @override
+  Map<String, Map<String, String>> get keys => {
+        'en_US': {
+          'titulo_login': 'Login',
+          'new_user': 'New user',
+          'email': 'Email',
+          'pay_in': 'Pay in',
+          'password': 'Password',
+          'change_password': 'Change password',
+          'Profile': 'Profile',
+          'gender': 'Gender',
+          'termsLabel': 'He leido y acepto los terminos y contidiones.',
+          'new_account': 'Do you already have an account?',
+          'placeholderEmail': 'example@example.com',
+          'register': 'Register',
+          'age': 'Age',
+          'gender_detail': 'Gender',
+          'save': 'Save',
+          'name': 'Name',
+          'lastname': 'Lastname',
+          'typeUser': 'Type user',
+          'player': 'Player',
+          'Coach': 'Coach',
+          'orientation': 'Orientation',
+          '': '',
+        },
+        'es_ES': {
+          'titulo_login': 'Inicio de sessión',
+          'new_user': 'Nuevo usuario',
+          'email': 'Correo electronico',
+          'pay_in': 'Ingresar',
+          'password': 'Contraseña',
+          'change_password': 'Cambio de contraseña',
+          'Profile': 'Perfil',
+          'I_like': 'Me gusta',
+          'termsLabel': 'He leido y acepto los terminos y contidiones.',
+          'new_account': '¿Ya tienes cuenta?',
+          'placeholderEmail': 'ejemplo@ejemplo.com',
+          'register': 'Registrarse',
+          'age': 'Edad',
+          'gender_detail': 'Genero',
+          'save': 'Guardar',
+          'name': 'Nombre',
+          'lastname': 'Apellido',
+          'typeUser': 'Tipo de usuario',
+          'player': 'Jugador',
+          'Coach': 'Profesor',
+          'orientation': 'Orientación',
+          '': '',
+        }
+      };
+}

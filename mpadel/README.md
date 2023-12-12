@@ -1,4 +1,4 @@
-# mpadel
+# Klasspadel
 
 A new Flutter project.
 

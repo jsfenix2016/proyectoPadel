@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "913124285548",
+    "project_id": "klasspadel-a6702",
+    "storage_bucket": "klasspadel-a6702.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:913124285548:android:5dab046f5e32095e5b0c49",
+        "android_client_info": {
+          "package_name": "com.example.Klasspadel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "913124285548-8j9u9l6m1lb4k59ljkucmkslcsj3vbpj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAd12JQEXQ_mB2BGHyZaosL5EUAu_F2o2s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "913124285548-8j9u9l6m1lb4k59ljkucmkslcsj3vbpj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
